@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: energy-api-app
+  namespace: energy-api-app
   labels:
     app: energy-api-app
 spec:
