@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: energy-api-app
-          image: sha256:706c46ef195e6c1b7e65b9900f83c00446f310c92b839f35b1afd81d295e25b2
+          image: quay.io/therrell/energy-app-api
           ports:
             - containerPort: 80
           env:
