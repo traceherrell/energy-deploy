@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: energy-api-app
-          image: sha256:eef731f4127788f08cc5d3fd80ccb984ad5a466732bbbabc1d94c6d9af13dd66
+          image: sha256:706c46ef195e6c1b7e65b9900f83c00446f310c92b839f35b1afd81d295e25b2
           ports:
             - containerPort: 80
           env:
