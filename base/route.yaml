@@ -1,0 +1,12 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: energy-api-app
+  namespace: energy-api-app
+spec:
+  to:
+    kind: Service
+    name: energy-api-app
+  port:
+    targetPort: 80
+  path: /weather

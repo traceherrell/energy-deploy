@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: energy-api-app
+  namespace: energy-api-app
+spec:
+  selector:
+    app: energy-api-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
