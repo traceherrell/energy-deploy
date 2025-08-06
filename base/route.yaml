@@ -4,6 +4,7 @@ metadata:
   name: energy-api-app
   namespace: energy-api-app
 spec:
+  path: /weatherforecast
   to:
     kind: Service
     name: energy-api-app
