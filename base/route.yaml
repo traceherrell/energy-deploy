@@ -10,3 +10,6 @@ spec:
     name: energy-api-app
   port:
     targetPort: 8080-tcp
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
