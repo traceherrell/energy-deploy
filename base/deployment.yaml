@@ -26,4 +26,4 @@ spec:
             - name: ASPNETCORE_ENVIRONMENT
               value: "Development"
             - name: ASPNETCORE_URLS
-              value: 0.0.0.0:8080
+              value: http://0.0.0.0:8080
