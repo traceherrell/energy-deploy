@@ -9,4 +9,3 @@ spec:
     name: energy-api-app
   port:
     targetPort: 80
-  path: /weather
