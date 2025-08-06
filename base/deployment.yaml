@@ -15,6 +15,8 @@ spec:
       labels:
         app: energy-api-app
     spec:
+      imagePullSecrets:
+        - name: quay-secret
       containers:
         - name: energy-api-app
           image: quay.io/therrell/energy-app-api@sha256:bd460d7db627ae5ec9c65e952a3248a19daf3e486e8e1ef830b92054682eb39b
