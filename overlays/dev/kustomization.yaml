@@ -6,17 +6,10 @@ resources:
 
 patches:
   - target:
-      kind: Certificate
-      name: keycloak-tls
+      kind: Deployment
+      name: energy-api-app
+
     patch: |-
       - op: replace
-        path: /spec/dnsNames/0
-        value: keycloak.apps.cluster-8pq26.dynamic.redhatworkshops.io
-      - op: remove
-        path: /spec/dnsNames/1
-      - op: remove
-        path: /spec/dnsNames/1
-
-      - op: replace
-        path: /spec/issuerRef/name
-        value: zerossl-production-ec2
+        path: /spec/replicas
+        value: 2
