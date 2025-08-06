@@ -8,4 +8,4 @@ spec:
     kind: Service
     name: energy-api-app
   port:
-    targetPort: 80
+    targetPort: 8080-tcp
