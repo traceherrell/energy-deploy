@@ -23,6 +23,8 @@ spec:
           ports:
             - containerPort: 8080
           env:
+            - name: ASPNETCORE_HTTPS_PORT
+              value: ""
             - name: ASPNETCORE_ENVIRONMENT
               value: "Development"
             - name: ASPNETCORE_URLS
