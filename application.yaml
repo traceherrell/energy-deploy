@@ -10,6 +10,7 @@ spec:
     namespace: energy-api-app
   source:
     repoURL: https://github.com/traceherrell/energy-deploy.git
+    #repoURL: https://dev.azure.com/your-organization/your-project/_git/your-repository
     targetRevision: main
     path: overlays/dev
   syncPolicy:
