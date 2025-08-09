@@ -19,7 +19,7 @@ spec:
         - name: quay-secret
       containers:
         - name: energy-api-app
-          image: quay.io/therrell/energy-app-api@sha256:aed9809a53c7bff29c792b04648a29500325cba6fa9a881a299bf12371304685
+          image: quay.io/therrell/energy-app-api@sha256:c5261566cf363e3c1d12de172f43eee080c43f9a03e9a046375444ded6d880ea
           ports:
             - containerPort: 8080
           env:
